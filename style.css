@@ -40,3 +40,93 @@ body {
     font-size: 14px;
     margin-top: 10px;
   }
+  body {
+    background-color: black;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    color: #ff69b4;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 1px 1px 0 #ffb6c1;
+  }
+  
+  h1, h2, h3 {
+    color: #ff1493;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #ff69b4;
+    padding-bottom: 5px;
+  }
+  .box {
+    background-color: rgba(255, 105, 180, 0.1);
+    border: 2px dotted hotpink;
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px hotpink;
+  }
+  .friend-button {
+    display: inline-block;
+    background-color: hotpink;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 2px solid #ff1493;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .friend-button:hover {
+    background-color: #ff1493;
+    color: white;
+  }
+  <script src="https://cdn.jsdelivr.net/gh/lepinekong/star-cursor/star-cursor.min.js"></script>
+  body {
+    background-color: black;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    color: #ff69b4;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 1px 1px 0 #ffb6c1;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #ff1493;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #ff69b4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    background-color: rgba(255, 105, 180, 0.1);
+    border: 2px dotted hotpink;
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px hotpink;
+  }
+  
+  .friend-button {
+    display: inline-block;
+    background-color: hotpink;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 2px solid #ff1493;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  
+  .friend-button:hover {
+    background-color: #ff1493;
+    color: white;
+  }
+  
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  

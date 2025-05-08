@@ -4,8 +4,8 @@ function login() {
     const error = document.getElementById("error-msg");
   
     // Customize your login credentials here
-    const validUsername = "jessica";
-    const validPassword = "secret123";
+    const validUsername = "caleb";
+    const validPassword = "secretspace2003";
   
     if (username === validUsername && password === validPassword) {
       window.location.href = "home.html"; // Redirect to personal space
@@ -13,4 +13,3 @@ function login() {
       error.textContent = "Incorrect login. Try again.";
     }
   }
-  
